@@ -21,13 +21,13 @@ for (var i=0;i <objectJ.length; i++) {
 var avg=total / objectJ.length;
 console.log("the ppu avg" + avg);
 console.log('--------------');
-var sum=e;
+var sum=0;
 
-for( let i=0 i<objectJ.length; i++){ 
+for( let i=0;i<objectJ.length; i++){ 
   console.log(object)[1].ppu); 
   sum +=objectJ[i].ppu;
 }
-var totalsum = sum; 
+var totalsum=sum; 
 console.log( "the ppu sum *totalsum"+totalsum);
 
 console.log('--------------');
