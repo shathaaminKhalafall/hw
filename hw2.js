@@ -1,6 +1,6 @@
 var objectJ= require("./hw.json");
  for (let i=0; i <objectJ.length; i++ ) {
-    for(let x=0; x<objectJ[i]. topping.length ; x++ ){
+    for(let x=0; x<objectJ[i].topping.length ; x++ ){
        console.log(objectJ[i].topping[x]. type); }}
 
 console.log('--------------');
@@ -33,11 +33,8 @@ console.log( "the ppu sum *totalsum"+totalsum);
 console.log('--------------');
 
 function ObjectId(){
-
 console.log("all objectJ id : ");
-
 for ( let i=0 ; i <objectJ.length; i++){
-
 console.log(objectJ[i].id + " ");
 
 }}
@@ -59,12 +56,12 @@ function toppingId(){
 console.log("all topping id : ");
 
 for( let i=0 ;i<objectJ.length; i++ ) {
-  for (let x=0 ; x<objectJ.topping.length; x++){
+  for (let x=0 ; x<objectJ[i].topping.length; x++){
 
 console.log(objectJ[i].topping[x].id +" " );
   }}}
   ObjectId();
   batterId();
-  topping();
+  toppingId();
 
 console.log('--------------');
